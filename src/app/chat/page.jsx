@@ -20,7 +20,7 @@ const ChatScreen = () => {
         // alert(csrf_token)
         const options = {
           method: 'GET',
-          credentials: 'include',
+          credentials: 'same-origin',
           headers: {
            "Content-Type": "application/json"
           },
